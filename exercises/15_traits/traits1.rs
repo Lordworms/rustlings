@@ -15,8 +15,8 @@ trait AppendBar {
 
 impl AppendBar for String {
     // TODO: Implement `AppendBar` for type `String`.
-    fn append_bar() -> Self {
-      Self {self + "Bar"}
+    fn append_bar(self) -> Self {
+     self + "Bar"
     }
 }
 
